@@ -1,0 +1,153 @@
+.box {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.box .page-wrapper {
+  border: 0px none;
+  height: 1806px;
+  width: 1500px;
+}
+
+.box .page {
+  background-color: #f4f5f9;
+  height: 1806px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1500px;
+}
+
+.box .group {
+  height: 1691px;
+  left: 124px;
+  position: relative;
+  top: 46px;
+  width: 1250px;
+}
+
+.box .div {
+  height: 180px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 1252px;
+}
+
+.box .text-wrapper {
+  color: var(--blue-letter);
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 72px;
+  width: 1248px;
+}
+
+.box .h-1 {
+  color: var(--blue-letter);
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 451px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.box .group-2 {
+  height: 459px;
+  left: 0;
+  position: absolute;
+  top: 238px;
+  width: 1160px;
+}
+
+.box .spirituality {
+  height: 459px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 498px;
+}
+
+.box .group-3 {
+  height: 209px;
+  left: 567px;
+  position: absolute;
+  top: 125px;
+  width: 597px;
+}
+
+.box .text-wrapper-2 {
+  color: var(--blue-letter);
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.box .text-wrapper-3 {
+  color: #25252580;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 83px;
+  width: 593px;
+}
+
+.box .group-4 {
+  height: 459px;
+  left: 2px;
+  position: absolute;
+  top: 1232px;
+  width: 1160px;
+}
+
+.box .group-5 {
+  height: 167px;
+  left: 567px;
+  position: absolute;
+  top: 146px;
+  width: 597px;
+}
+
+.box .group-6 {
+  height: 459px;
+  left: 48px;
+  position: absolute;
+  top: 735px;
+  width: 1200px;
+}
+
+.box .img {
+  height: 459px;
+  left: 702px;
+  position: absolute;
+  top: 0;
+  width: 498px;
+}
+
+.box .group-7 {
+  height: 251px;
+  left: 0;
+  position: absolute;
+  top: 104px;
+  width: 597px;
+}

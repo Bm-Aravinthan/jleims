@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.blog-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--white, #FFF);
+    width: 368px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.blog-card-container:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card-container .image img {
+    width: 368px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+
+}
+
+.blog-card-container .blog-content{
+    padding-inline: 28px;
+    padding-top: 24px;
+}
+
+.blog-card-container .blog-title {
+    color: var(--black, #161722);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.blog-card-container .blog-description {
+    color: var(--black, #161722);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7799999713897705;
+    margin-bottom: 12px;
+}
+
+.blog-card-container .blog-date {
+    color: var(--black, #161722);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 798px) {
+    .blog-card-container {
+        width: 100%;
+    }
+
+    .blog-card-container .image img {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px 10px 0px 0px;
+        object-fit: cover;
+    }
+
+    .blog-card-container .blog-content{
+        padding-inline: 28px;
+        padding-top: 24px;
+    }
+
+    .blog-card-container .blog-title {
+        color: var(--black, #161722);
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.2px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+
+    .blog-card-container .blog-description {
+        color: var(--black, #161722);
+        font-family: Roboto Condensed;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 0.7799999713897705;
+        margin-bottom: 12px;
+    }
+
+    .blog-card-container .blog-date {
+        color: var(--black, #161722);
+        font-family: Roboto Condensed;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}

@@ -1,0 +1,27 @@
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9px;
+}
+
+.social-media .social-media-link img {
+    width: 31px;
+    height: 31px;
+    transition: opacity 0.3s ease;
+}
+
+.social-media .social-media-link img:hover {
+    opacity: 0.7; 
+}
+
+#blogger{
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    .social-media .social-media-link img {
+        width: 40px;
+        height: 40px;
+    }
+}

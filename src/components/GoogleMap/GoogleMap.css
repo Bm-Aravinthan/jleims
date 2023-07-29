@@ -1,0 +1,25 @@
+.google-map {
+    width: 98vw;
+    height: 460px;
+    border-radius: 10px;
+    background-color: rgb(107, 116, 131, 0.05);
+
+}
+
+/* .google-map iframe {
+    -webkit-filter: grayscale(60%);
+    filter: grayscale(80%);
+} */
+
+@media screen and (max-width: 768px) {
+    .google-map {
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .google-map {
+        /* padding: 0 0px; */
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,101 @@
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F4F5F9;
+    padding-top: 40px;
+    padding-inline: 126px;
+}
+
+.blog-container .title {
+    color: #161722;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.blog-container .sub-title {
+    color: var(--blue-letter, #161722);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blog-container .card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.view-more-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.view-more-button-container .view-more-button{
+    display: flex;
+    width: 234.773px;
+    padding: 24px 64px;
+    align-items: center;
+    gap: 16px;
+    border: none;
+    border-radius: 12px;
+    background: var(--primary, #FFD2A4);
+    color: var(--black, #1C1D28);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-top: 32px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.view-more-button-container .view-more-button:hover{
+    background: var(--primary, #ffbf7f);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 798px){
+    .blog-container{
+        padding-inline: 20px;
+    }
+
+    .blog-container .title{
+        font-size: 32px;
+    }
+
+    .blog-container .sub-title{
+        font-size: 16px;
+    }
+
+    .blog-container .card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .blog-container {
+        padding-top: 20px;
+    }
+
+    .view-more-button-container .view-more-button{
+        padding: 20px 54px;
+        font-size: 16px;
+        margin-top: 0px;
+        justify-content: center;
+    }
+}

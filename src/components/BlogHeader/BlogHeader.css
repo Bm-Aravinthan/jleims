@@ -1,0 +1,12 @@
+.blog-header-container img{
+    width: 100%;
+    height: 473px;
+}
+
+@media screen and (max-width: 798px){
+    .blog-header-container img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
