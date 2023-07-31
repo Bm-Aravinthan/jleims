@@ -6,7 +6,7 @@ const index = () => {
     <div>
       <NavBar />
       <AboutWelcome/>
-      <ImageSlider />
+      {/* <ImageSlider /> */}
       {/* <AboutChurch/> */}
       <Footer />
     </div>
