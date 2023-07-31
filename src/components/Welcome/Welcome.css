@@ -13,7 +13,7 @@
 .welcome-container .img-container img {
     width: 532px;
     height: 499px;
-    margin: 95px 0 95px 130px;
+    margin: 70px 20px 70px 85px;
     border-radius: 15px;
 }
 
@@ -21,8 +21,9 @@
     grid-column: 2 / 3;
     display: flex;
     flex-direction: column;
-    padding-top: 130px;
+    /* padding-top: 130px; */
     align-items: start;
+    justify-content: center;
 }
 
 .welcome-container .text-container .title{
@@ -40,16 +41,17 @@
     font-style: normal;
     font-weight: 400;
     margin-top: 17px;
-    padding-right: 136px;
+    padding-right: 85px;
 }
 
 .welcome-container .text-container .sub-title{
     color: var(--blue-letter, #161722);
     font-family: Poppins;
-    font-size: 40px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
-    margin-top: 44px;
+    margin-top: 20px;
+    padding-right: 85px;
 }
 
 @media screen and (max-width: 768px) {

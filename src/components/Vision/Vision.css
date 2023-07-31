@@ -18,10 +18,11 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding-top: 113px;
-    padding-left: 116px;
+    /* padding-top: 113px; */
+    padding-left: 85px;
     color: var(--letters-main, #F5F2F0);
     font-family: Poppins;
+    justify-content: center;
 }
 
 .vision-container .vision-content .title{

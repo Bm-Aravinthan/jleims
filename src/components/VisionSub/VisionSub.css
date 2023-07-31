@@ -4,10 +4,11 @@
 }
 
 .vision-sub-container .content-container{
-    padding: 54px 122px;
+    padding: 40px 85px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    justify-content: center;
 }
 
 .vision-sub-container .content-container .content{
