@@ -1,6 +1,6 @@
 .mission-container {
   position: relative;
-  height: 689px;
+  height: 657.75px;
 }
 
 .mission-container .img-container {
@@ -8,6 +8,10 @@
   width: 100%;
   height: 100%;
   z-index: -1;
+}
+
+.mission-container .img-container img{
+  max-width: 100%;
 }
 
 .mission-container .content-container {
@@ -20,7 +24,7 @@
   flex-direction: column;
   align-items: start;
   padding-top: 30px;
-  padding-left: 762px;
+  padding-left: 760px;
 }
 
 .mission-container .content-container .title {
@@ -30,7 +34,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .mission-container .content-container .description {
@@ -40,8 +44,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 43px;
-  padding-right: 82px;
+  margin-bottom: 30px;
+  padding-right: 76px;
 }
 
 @media screen and (max-width: 768px) {

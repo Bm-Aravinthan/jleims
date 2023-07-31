@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import './NavBar.css';
 
 const NavBar = () => {
   const [isActive, setIsActive] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   // add the active class
   const toggleActiveClass = () => {
@@ -15,9 +16,26 @@ const NavBar = () => {
     setIsActive(false);
   };
 
+  // function to handle scrolling
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  };
+
+  // add scroll event listener when component mounts
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="navbar-container">
-      <nav className="navbar">
+    <div className={`navbar-container ${isScrolled ? 'scrolled' : ''}`}>
+      <nav className={`navbar ${isActive ? 'active' : ''}`}>
         {/* logo */}
         <NavLink exact to="/" className="logo">
           JLEIM

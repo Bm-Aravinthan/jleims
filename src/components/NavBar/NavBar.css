@@ -22,9 +22,9 @@
 
   .navbar-container{
     width: 100%;
-    /* position: fixed;
+    position: fixed;
     top: 0;
-    z-index: 9005; */
+    z-index: 9005;
   }
   
   /* navbar */
