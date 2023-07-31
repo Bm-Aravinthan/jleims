@@ -1,6 +1,7 @@
 .sermons-header-container {
     position: relative;
     height: 473px;
+    margin-top: 70px;
 }
 
 .sermons-header-container img {

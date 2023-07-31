@@ -14,7 +14,7 @@
     --bg: #FFF5EB;
 }
 
-html {
+/* html {
     scroll-behavior: smooth;
 }
 
@@ -34,7 +34,7 @@ html {
     html {
         zoom: 2.5;
     }
-}
+} */
 
 ::-webkit-scrollbar {
     width: 0.5rem;

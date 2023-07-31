@@ -1,13 +1,12 @@
 import React from 'react'
-import {AboutWelcome,AboutChurch,Footer, NavBar, ImageSlider } from '../../components'
+import {AboutWelcome,Footer, NavBar, ImageSlider } from '../../components'
 
 const index = () => {
   return (
     <div>
       <NavBar />
       <AboutWelcome/>
-      {/* <ImageSlider /> */}
-      {/* <AboutChurch/> */}
+      <ImageSlider />
       <Footer />
     </div>
   )

@@ -46,7 +46,7 @@ const GalleryView = () => {
       };
     
       return (
-        <div>
+        <div className='gallary-main-container'>
             <div className="gallery-title">
                 <h1>Gallery</h1>
             </div>
