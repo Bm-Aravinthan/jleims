@@ -22,3 +22,4 @@ export { default as Sermons } from "./Sermons/Sermons";
 export { default as ImageSlider } from "./ImageSlider/ImageSlider";
 export { default as SermonsHeader } from "./SermonsHeader/SermonsHeader";
 export { default as SermonCard } from "./SermonCard/SermonCard";
+export { default as GoToTop } from "./GoToTop/GoToTop";
