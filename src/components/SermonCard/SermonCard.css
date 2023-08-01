@@ -26,12 +26,12 @@
 .sermons-card-container .card-content .text {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     width: 435px;
     height: 512px;
-    padding-left: 89px;
-    padding-right: 80px;
+    padding-left: 10px;
+    padding-right: 60px;
 }
 
 .sermons-card-container .card-content .text .heading {
@@ -52,11 +52,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    text-align: center;
 }
 
 .sermons-card-container .card-content .text .time-box{
     display: flex;
     flex-direction: row;
+
+    width: 100%;
 }
 
 .sermons-card-container .card-content .text .time-box .icon{
@@ -75,7 +78,8 @@
     line-height: 24px;
     margin-top: 8px;
     margin-bottom: 8px;
-    width: 184px;
+    /* width: 184px; */
+    width: 100%;
 }
 
 .sermons-card-container .card-content .text .join-button button {
@@ -127,7 +131,7 @@
     }
 
     .sermons-card-container {
-        padding: 30px 20px 10px 20px;
+        padding: 30px 20px 0px 20px;
         height: auto;
     }
 

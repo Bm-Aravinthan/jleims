@@ -11,10 +11,10 @@ const Welcome = () => {
         <div className="text-container">
             <div className="title">Welcome</div>
             <div className="description">
-                Dear brother and sisters in Christ, we hearty welcome you to our Tamil church in Wageningen. We praise and worship our lord Jesus Christ as one family. You are always welcome to join our service.
+                Dear brothers and sisters in Christ, we are heartly welcome you to our Tamil church in Wageningen. We are praising and worshiping our lord Jesus Christ as one family. You are always welcome to join our service.
             </div>
             <div className="sub-title">
-                Discovering Jesus Christ - the greatest event in anyone's life! 
+                Jesus said to him "I am the way, The truth and the life" 
             </div>
         </div>
     </div>

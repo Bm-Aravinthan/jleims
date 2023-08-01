@@ -17,15 +17,27 @@ const SermonCard = () => {
         <div className="card-content">
             <div className="text">
                 <div className="heading">WATCH AND LISTEN TO OUR SERMONS</div>
-                <div className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                <div className="description">Explore our library of sermons and let God's word transform your heart. Be encouraged, uplifted, and equipped to live a life that honors and glorifies our Lord and Savior, Jesus Christ.</div>
                 <div className="time-box">
                     <AccessTimeIcon className='icon'/>
-                    <div className="time">Friday 23:39 IST Saturday 11:20 ISD</div>
+                    <div className="time">Sunday 1.30 PM</div>
                 </div>
                 <div className="time-box">
+                    <AccessTimeIcon className='icon'/>
+                    <div className="time">Tuesday pray for salvation 12.30 (urop)</div>
+                </div>
+                <div className="time-box">
+                    <AccessTimeIcon className='icon'/>
+                    <div className="time">Saturday fasting prayer 10.00 AM</div>
+                </div>
+                <div className="time-box">
+                    <AccessTimeIcon className='icon'/>
+                    <div className="time">House meeting every Tuesday 7.00 PM</div>
+                </div>
+                {/* <div className="time-box">
                     <FmdGoodOutlinedIcon className='icon'/>
                     <div className="time">No 233 Main St. New York, United States</div>
-                </div>
+                </div> */}
                 <div className="join-button">
                     <button onClick={handleJoin}>JOIN US</button>
                 </div>

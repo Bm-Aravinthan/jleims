@@ -6,7 +6,7 @@
 .footer .footer-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 66px 85px;
+    padding: 46px 85px;
     margin: auto;
 }
 
@@ -31,7 +31,7 @@
 .footer .footer-container .footer-left .description{
     color: #FFF;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -42,7 +42,7 @@
 .footer .footer-container .footer-left .address{
     color: #FFF;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -65,7 +65,7 @@
 .footer .footer-container .footer-center h3{
     color: #FFF;
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -82,7 +82,7 @@
 .footer .footer-container .footer-center .footer-links a{
     color: #FFF;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -103,18 +103,19 @@
 .footer .footer-container .footer-right h3{
     color: var(--white, #FFF);
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 44px;
     letter-spacing: -0.3px;
     width: 438px;
+    width: 100%;
 }
 
 .footer .footer-container .footer-right .footer-form{
     display: flex;
     width: 512px;
-    height: 64px;
+    height: 54px;
     flex-shrink: 0;
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 12px;
@@ -127,7 +128,7 @@
 
 .footer .footer-container .footer-right .footer-form input{
     width: 100%;
-    height: 64px;
+    height: 54px;
     background: transparent;
     color: var(--white, #FFF);
     text-align: left;
@@ -173,21 +174,21 @@
 }
 
 .footer .footer-container .footer-right .icon{
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .footer .footer-container .footer-right span{
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-items: start;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
 }
 
 .footer .footer-container .footer-right a{
     color: #FFF;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -201,7 +202,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 11px 85px;
+    padding: 9px 85px;
     background: var(--bg-2, #1C1C1C);
     color: var(--body-letter, #9B968B);
 }
@@ -315,6 +316,37 @@
         align-items: center;
         padding: 11px 10px;
         font-size: 14px !important;
+    }
+
+    .footer .footer-container .footer-right{
+        display: block;
+    }
+
+    .footer .footer-container .footer-right h3{
+        display: none;
+    }
+
+    .footer .footer-container .footer-right .footer-form{
+        display: none;
+    }
+
+    .footer .footer-container .footer-right .icon{
+    font-size: 20px;
+    }
+
+    .footer .footer-container .footer-right a{
+        font-size: 16px !important;
+    }
+
+    .footer .footer-container .footer-right span{
+        gap: 8px;
+        margin-top: 10px;
+    }
+
+    .footer .footer-container .footer-right{
+        margin: 10px 5px 0px 5px ;
+        display: flex;
+        align-items: center;
     }
 
 }

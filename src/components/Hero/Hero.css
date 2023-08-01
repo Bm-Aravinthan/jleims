@@ -46,7 +46,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 0 359px;
+    padding: 0 85px;
 }
 
 .hero-container .hero-content .social-icons{
@@ -104,5 +104,21 @@
     .hero-container .hero-content .hero-description{
         font-size: 16px !important;
         padding: 0px 40px 30px 40px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .hero-container .hero-content .hero-title {
+        font-size: 1.5rem !important;
+    }
+
+    .hero-container .hero-content .hero-subtitle {
+        font-size: 35px;
+        padding: 0px 40px 30px 40px;
+    }
+
+    .hero-container .hero-content .hero-description {
+        font-size: 16px !important;
+        padding: 0px 30px 30px 30px;
     }
 }

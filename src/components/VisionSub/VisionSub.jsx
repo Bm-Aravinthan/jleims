@@ -14,7 +14,7 @@ const VisionSub = () => {
         <div className="content">
           Our vision is to reach Wageningen in the Netherlands and the surrounding areas with the
           Gospel of Jesus Christ. We can achieve this through meetings, we focus
-          on all people who live in and around Wageningen.
+          on all people who lives in and around Wageningen.
         </div>
       </div>
     </div>
