@@ -114,6 +114,7 @@
 @media screen and (max-width: 480px) {
     .latest-blog-container .content{
         margin-top: -30px;
+        text-align: center;
     }
 
     .latest-blog-container .content .date {

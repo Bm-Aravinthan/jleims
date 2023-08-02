@@ -27,7 +27,7 @@ const SocialMediaIcons = ({ size }) => {
           id="blogger"
         />
       </a>
-      <a href="#home" className="social-media-link" target="_blank">
+      <a href="https://wa.me/31641435566" className="social-media-link" target="_blank" rel="noreferrer">
         <img
           src={images.Whatsapp}
           alt="whatsapp"

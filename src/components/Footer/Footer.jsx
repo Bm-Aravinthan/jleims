@@ -112,7 +112,7 @@ const Footer = () => {
           JLEIM &copy; Copyright {getCurrentYear()} | All Rights Reserved
         </span>
         <span className="bottom-bar-center">
-          Designed &amp; Developed by <a href="http://www.clevonex.tech" target="_blank">Clevonex</a>
+          Designed &amp; Developed by <a href="http://www.clevonex.tech" target="_blank" rel="noreferrer">Clevonex</a>
         </span>
         <span className="bottom-bar-right">
           Privacy &amp; Cookie Policy | Terms of Service
