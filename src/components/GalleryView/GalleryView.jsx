@@ -35,6 +35,21 @@ const GalleryView = () => {
             id: 6,
             src: images.Gallery_6,
             alt: 'image6'
+        },
+        {
+            id: 7,
+            src: images.Gallery_7,
+            alt: 'image7'
+        },
+        {
+            id: 8,
+            src: images.Gallery_8,
+            alt: 'image8'
+        },
+        {
+            id: 9,
+            src: images.Gallery_9,
+            alt: 'image9'
         }
     ]
     const openImageFullScreen = (imageId) => {

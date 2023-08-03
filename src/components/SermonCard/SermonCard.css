@@ -201,4 +201,8 @@
         font-size: 32px;
         margin-bottom: 20px;
     }
+
+    .sermons-card-container .card-content .text .time-box {
+        margin-left: auto;
+    }
 }

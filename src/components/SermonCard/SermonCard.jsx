@@ -20,19 +20,19 @@ const SermonCard = () => {
                 <div className="description">Explore our library of sermons and let God's word transform your heart. Be encouraged, uplifted, and equipped to live a life that honors and glorifies our Lord and Savior, Jesus Christ.</div>
                 <div className="time-box">
                     <AccessTimeIcon className='icon'/>
-                    <div className="time">Sunday 1.30 PM (urop)</div>
+                    <div className="time">Sunday 1.30 PM (Europe)</div>
                 </div>
                 <div className="time-box">
                     <AccessTimeIcon className='icon'/>
-                    <div className="time">Tuesday pray for salvation 12.30 (urop)</div>
+                    <div className="time">Tuesday pray for salvation 12.30 (Europe)</div>
                 </div>
                 <div className="time-box">
                     <AccessTimeIcon className='icon'/>
-                    <div className="time">Saturday fasting prayer 10.00 AM (urop)</div>
+                    <div className="time">Saturday fasting prayer 10.00 AM (Europe)</div>
                 </div>
                 <div className="time-box">
                     <AccessTimeIcon className='icon'/>
-                    <div className="time">House meeting every Tuesday 7.00 PM (urop)</div>
+                    <div className="time">House meeting every Tuesday 7.00 PM (Europe)</div>
                 </div>
                 {/* <div className="time-box">
                     <FmdGoodOutlinedIcon className='icon'/>

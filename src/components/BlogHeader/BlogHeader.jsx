@@ -19,7 +19,7 @@ const BlogHeader = () => {
         <img src={images.BlogHeader} alt="Blog" />
         <div className="blog-header-text">
             <h1>Our Blog</h1>
-            <p>We are committed. We are passionate. We are on a journey.</p>
+            <p>Committed. Passionate. On a journey.</p>
         </div>
     </div>
   )

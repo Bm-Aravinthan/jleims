@@ -114,6 +114,8 @@ function ImageSlider() {
     images.ImageSlider_5,
     images.ImageSlider_6,
     images.ImageSlider_7,
+    images.ImageSlider_8,
+    images.ImageSlider_9,
   ];
 
   return (
