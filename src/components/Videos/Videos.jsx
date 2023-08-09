@@ -91,7 +91,7 @@ const Videos = () => {
           <Skeleton
             variant="rectangular"
             width="100%"
-            height="600px"
+            height="400px"
             animation="wave"
           />
         ) : (
